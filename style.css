@@ -1,0 +1,239 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  list-style: none;
+  color: black;
+  text-decoration: none;
+
+}
+
+body {
+  font-size: 15pt;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+header {
+  height: 3rem;
+  width: 100vw;
+  color: black;
+  display: flex;
+  align-items: center;
+  position: relative;
+}
+
+.header {
+  margin-left: 3vw;
+  font-family: fantasy;
+}
+
+header .creat-btn {
+  margin-left: 58vw;
+  margin-right: 1.2rem;
+}
+
+
+header .chat span {
+  font-weight: bold;
+  font-size: 12px;
+  height: 1rem;
+  width: 1rem;
+  color: white;
+  background-color: red;
+  position: absolute;
+  border-radius: 50%;
+  text-align: center;
+  top: 0.28rem;
+  right: 0.86rem;
+}
+
+/* Style the top navigation bar */
+.navbar {
+  overflow: hidden;
+  /* Hide overflow */
+  background-color: lightskyblue;
+  /* Dark background color */
+}
+
+/* Style the navigation bar links */
+.navbar a {
+  float: left;
+  /* Make sure that the links stay side-by-side */
+  display: block;
+  /* Change the display to block, for responsive reason;s (see below) */
+  color: white;
+  /* White text color */
+  text-align: center;
+  /* Center the text */
+  padding: 2vh 3vw;
+  /* Add some padding */
+  text-decoration: none;
+  /* Remove underline */
+}
+
+/* Right-aligned link */
+.navbar a.right {
+  float: right;
+  /* Float a link to the right */
+}
+
+/* Change color on hover/mouse-over */
+.navbar a:hover {
+  background-color: #ddd;
+  /* Grey background color */
+  color: black;
+  /* Black text color */
+}
+
+/* Ensure proper sizing */
+* {
+  box-sizing: border-box;
+}
+
+/* Column container */
+.row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Create two unequal columns that sits next to each other */
+/* Sidebar/left column */
+/* Main column */
+.main {
+  background-color: white;
+  /* White background color */
+  /* Some padding */
+}
+
+@media screen and (max-width: 700px) {
+  .row {
+    flex-direction: column;
+  }
+}
+
+
+
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+}
+
+
+.footer {
+  padding: 20px;
+  /* Some padding */
+  text-align: center;
+  /* Center text*/
+  background: #ddd;
+  /* Grey background */
+}
+
+#post .main-post {
+  width: 100vw;
+  height: 92vh;
+}
+
+#post {
+  position: relative;
+}
+
+#post .post-logo {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 0.7rem;
+  left: 0.7rem;
+}
+
+#post .post-user-name {
+  height: 2rem;
+  width: 2rem;
+  border-radius: 50%;
+  position: absolute;
+  top: 1rem;
+  left: 3.5rem;
+  color: white;
+  font-size: 15px;
+}
+
+.story ul {
+  display: flex;
+  justify-content: start;
+  flex-direction: left;
+  margin-bottom: 0.5rem;
+}
+
+.story ul li img {
+  height: 4.5rem;
+  width: 4.5rem;
+  border-radius: 50%;
+  margin: 0.5rem 0.5rem 0.27rem 0.5rem;
+  border: 4px solid pink;
+}
+
+.story ul li span {
+  font-size: 12px;
+  color: gray;
+}
+
+.story ul li {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+
+.navar ul {
+  display: flex;
+  align-items: center;
+  flex-direction: left;
+  justify-content: space-between;
+  padding-bottom: 0.6rem;
+  padding-top: 0.5rem;
+  position: fixed;
+  width: 100vw;
+  bottom: 0.06rem;
+  background-color: white;
+
+
+}
+
+.navar ul li {
+  margin-left: 2rem;
+  margin-right: 2rem;
+
+}
+
+
+.fi:hover {
+  color: gray;
+
+}
+
+
+
+
+.posts {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.like-comment {
+  font-size: 10px;
+  color: #333;
+  padding-bottom: 40px;
+  font-weight: bold;
+}
+
+
+@media screen and (min-width:900px) {
+  header .creat-btn{
+    margin-left: 79vw;
+    }
+}
