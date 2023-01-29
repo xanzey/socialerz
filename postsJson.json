@@ -1,22 +1,22 @@
 [
   {
-    "url": "/images/image1.jpeg",
+    "url": "image1.jpeg",
     "name": "xanzey"
 },
   {
-    "url": "/images/images2.jpeg",
+    "url": "images2.jpeg",
     "name": "ajay"
 },
   {
-    "url": "/images/image3.jpeg",
+    "url": "image3.jpeg",
     "name": "karan"
 },
   {
-    "url": "/images/image4.jpeg",
+    "url": "image4.jpeg",
     "name": "arjun"
 },
   {
-    "url": "/images/image5.jpeg",
+    "url": "image5.jpeg",
     "name": "muskan"
 }
 ]
