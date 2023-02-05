@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=Edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="chatbox.css">
+    
+  </style>
+</head>
+
+<body>
+  
+  <div class="main">
+    <div class="header">
+      <div class="pimg">
+        <img src="profile.jpg" alt="profile.jpg">
+      </div>
+      <p>Sanjay Kushwaha</p>
+    </div>
+    <div class="box">
+      <div id="sms-space">
+        
+      </div>
+      
+      
+    </div>
+    <div class="bottom">
+      <img src="cam.png" alt="" id="photo">
+      <input type="text" name="massege" id="massege" placeholder="Massage...">
+      <button type="send" onclick="sendsms()" id="send">Send</button>
+    </div>
+    
+  </div>
+  <script src="chatbox.js"></script>
+  <script type="module">
+    // Import the functions you need from the SDKs you need
+    import { initializeApp } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-app.js";
+    import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.16.0/firebase-analytics.js";
+    // TODO: Add SDKs for Firebase products that you want to use
+    // https://firebase.google.com/docs/web/setup#available-libraries
+  
+    // Your web app's Firebase configuration
+    // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+    const firebaseConfig = {
+      apiKey: "AIzaSyBBHf3uXDG03XTKUKSsrloEsrsDTGnSL5c",
+      authDomain: "socialerz-01.firebaseapp.com",
+      projectId: "socialerz-01",
+      storageBucket: "socialerz-01.appspot.com",
+      messagingSenderId: "679812421168",
+      appId: "1:679812421168:web:ae1b4fa88fd71a4903bff5",
+      measurementId: "G-DVTKRX3L1M"
+    };
+  
+    // Initialize Firebase
+    const app = initializeApp(firebaseConfig);
+    const analytics = getAnalytics(app);
+  </script>
+</body>
+</html>
